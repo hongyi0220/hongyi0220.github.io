@@ -57,14 +57,10 @@ li:hover {
 }
 h1 {
   text-align: center;
+  padding-bottom: 20px;
 }
 
-.image {
-  overflow: hidden;
-  margin-top: 5%;
-}
-
-.image img {
+.about img {
   max-width: 100%;
   min-width: 200px;
   height: auto;
@@ -112,7 +108,7 @@ textarea {
 }
 
 .button {
- padding-left: 90px; 
+ padding-left: 90px;
 }
 button {
   margin-left: .5em;
@@ -161,18 +157,18 @@ a {
 }
 
 @media only screen and (max-width: 480px) {
-  .image-container img {
+  .about img {
     max-width: 50%;
     min-width: 45%;
   }
 }
 @media only screen and (min-width: 480px) {
-  .image-container img {
+  .about img {
     max-width: 35%;
   }
 }
 @media only screen and (min-width: 768px) {
-  .image-container img {
+  .about img {
     max-width: 20%;
   }
 }
