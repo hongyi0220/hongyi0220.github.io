@@ -21,7 +21,7 @@
   top: 0.5rem;
 }
 
-ul {
+.nav-bar ul {
   display: inline-block;
   float: right;
   font-size: 1.2rem;
@@ -59,17 +59,22 @@ body {
   height: 100%;
   width: 100%;
   overflow: auto;
+  text-align: center;
 }
 .content > * {
   position: relative;
   top: 80px;
+}
+.posts {
+  position: relative;
+  right: 1em;
 }
 .about {
   padding-bottom: 100px;
 }
 h1 {
   text-align: center;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .about img {
@@ -83,19 +88,41 @@ h1 {
 }
 
 .work {
-  padding-bottom: 200px;
+  margin-bottom: 100px;
+  text-align: center;
 }
 
 h2 {
   text-align: center;
   margin-bottom: 20px;
 }
+.work img {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 3px;
+  box-shadow: 0 0 1em gray;
+}
+.work .col {
+  display: inline-block;
+  width: 30%;
+}
+.work .row {
+  margin-top: 20px;
+}
+.work p {
+  display: block;
+}
+
+.gap {
+  display: inline-block;;
+  width: 10%;
+}
 form {
   position: relative;
   left: 50%;
   transform: translatex(-230px);
   width: 400px;
-  padding-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 form div + div {
@@ -114,10 +141,12 @@ input, textarea {
   width: 300px;
   box-sizing: border-box;
 }
-
+input {
+  height: 2em;
+}
 textarea {
   vertical-align: top;
-  height: 5em;
+  height: 6em;
 }
 
 .button {
