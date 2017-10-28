@@ -12,6 +12,7 @@
   background-color: rgba(243, 243, 243, .9);
   z-index: 1;
   top: 0;
+  box-shadow: 0 0 1em gray;
 }
 
 .nav-bar h1 {
@@ -113,10 +114,13 @@ h2 {
   display: inline-block;
   width: 30%;
 }
-
 .work .col.single {
   display: inline-block;
   width: 20%;
+}
+.work .col.single.special {
+  display: inline-block;
+  width: 40%;
 }
 .work .row + .row {
   margin-top: 6em;
@@ -135,17 +139,14 @@ form {
   width: 400px;
   margin-bottom: 100px;
 }
-
 form div + div {
   margin-top: 1em;
 }
-
 label {
   display: inline-block;
   width: 90px;
   text-align: right;
 }
-
 input, textarea {
   border-radius: 3px;
   display: inline-block;
@@ -173,31 +174,26 @@ footer {
   background-color: rgba(243, 243, 243, .9);
   padding: 10px 0 10px 0;
   margin-top: 100px;
+  box-shadow: 0 0 1em gray;
 }
-
 footer > * {
   display: inline-block;
   width: 49%;
 }
-
 .author a {
   text-decoration: none;
 }
-
 .links a {
   font-size: 1.5rem;
 }
-
 .links .fa {
   text-decoration: none;
   opacity: .8;
   margin: 0 2%;
 }
-
 .links .fa:hover {
   opacity: 1;
 }
-
 a:visited {
   color: black;
 }
