@@ -4,6 +4,11 @@
   font-family: 'Quicksand', sans-serif;
 }
 
+.col img {
+    width: 300px;
+    height: 250px;
+}
+
 .nav-bar {
   position: fixed;
   width: 100%;
