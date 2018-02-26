@@ -14,7 +14,7 @@
     background-color: rgba(243, 243, 243, .9);
     z-index: 1;
     top: 0;
-    box-shadow: 0 0 1em gray;
+    box-shadow: 0 0 5px gray;
 }
 .nav-bar h1 {
     font-weight: 100;
@@ -92,9 +92,10 @@ body {
     width: 25%;
     height: auto;
     display: block;
-    border: 1px dotted rgba(243, 243, 243, .9);
+    border: 1px solid rgba(243, 243, 243, .9);
     border-radius: 50%;
     margin: 2em auto 2em auto;
+    box-shadow: 0 0 1px gray;
 }
 .work {
     margin-bottom: 100px;
@@ -107,7 +108,7 @@ body {
 .work img {
     width: 100%;
     border-radius: 3px;
-    box-shadow: 0 0 1em gray;
+    box-shadow: 0 0 10px gray;
 }
 .work .col {
     display: inline-block;
@@ -137,7 +138,7 @@ footer {
     background-color: rgba(243, 243, 243, .9);
     padding: 1em 0 1em 0;
     margin-top: 100px;
-    box-shadow: 0 0 1em gray;
+    box-shadow: 0 0 5px gray;
 }
 footer h4 {
     margin-bottom: .5em;
@@ -175,6 +176,21 @@ a {
 }
 a:hover {
     opacity: 1;
+}
+.project-links hr {
+    border-color: black;
+    border-style: inset;
+    border-width: .5px;
+    width: .5em;
+    transform: rotate(90deg);
+    display: inline-block;
+    vertical-align: middle;
+}
+.project-links .link {
+    display: inline-block;
+}
+.proect-links .link:hover {
+    cursor: pointer;
 }
 @media only screen and (max-width: 350px) { /* Smaller than iphone 5*/
     .about img {
