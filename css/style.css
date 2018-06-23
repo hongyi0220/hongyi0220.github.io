@@ -7,32 +7,6 @@
     width: 300px;
     height: 250px;
 }
-.nav-bar {
-    position: fixed;
-    width: 100%;
-    height: 4em;
-    background-color: rgba(243, 243, 243, .9);
-    z-index: 1;
-    top: 0;
-    box-shadow: 0 0 5px gray;
-}
-.nav-bar h1 {
-    font-weight: 100;
-    font-size: 2.1rem;
-    display: inline-block;
-    position: relative;
-    left: 1em;
-    top: 0.53rem;
-}
-.nav-bar ul {
-    display: inline-block;
-    position: relative;
-    float: right;
-    font-size: 1.3rem;
-    top: 50%;
-    transform: translateY(-.7em);
-    margin-right: 1.15em;
-}
 li {
     display: inline-block;
     list-style-type: none;
@@ -63,17 +37,9 @@ body {
     overflow: auto;
     text-align: center;
 }
-.content > * {
-    position: relative;
-    top: 80px;
-}
 .posts {
     position: relative;
     right: 1em;
-}
-.about {
-    padding-top: 80px;
-    padding-bottom: 320px;
 }
 .about p {
     line-height: 1.5em;
@@ -89,16 +55,14 @@ body {
 .about img {
     max-width: 100%;
     min-width: 200px;
-    width: 25%;
+    width: 20%;
     height: auto;
     display: block;
-    border: 1px solid rgba(243, 243, 243, .9);
     border-radius: 50%;
     margin: 2em auto 2em auto;
-    box-shadow: 0 0 1px gray;
+    box-shadow: 0 0 5px gray;
 }
 .work {
-    margin-bottom: 100px;
     text-align: center;
 }
 .work h1 {
@@ -113,6 +77,7 @@ body {
 .work .col {
     display: inline-block;
     width: 30%;
+    min-width: 400px;
 }
 .work .col.single {
     display: inline-block;
@@ -135,10 +100,6 @@ body {
 footer {
     width: 100%;
     text-align: center;
-    background-color: rgba(243, 243, 243, .9);
-    padding: 1em 0 1em 0;
-    margin-top: 100px;
-    box-shadow: 0 0 5px gray;
 }
 footer h4 {
     margin-bottom: .5em;
@@ -169,6 +130,10 @@ a {
 }
 .social-media {
     margin-top: 1em;
+}
+.dot-dot-dot {
+  color: gray;
+  font-size: 1em;
 }
 a {
     opacity: 0.89;
