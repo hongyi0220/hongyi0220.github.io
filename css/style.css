@@ -221,7 +221,7 @@ a:hover {
         width: 60%;
     }
     .gap {
-        width: 0px;
+        display: none;
     }
     .work .row + .row {
         margin-top: 0.5em;
@@ -271,7 +271,7 @@ a:hover {
         width: 60%;
     }
     .gap {
-        width: 0px;
+        display: none;
     }
     .work .row + .row {
         margin-top: 0.5em;
@@ -320,7 +320,7 @@ a:hover {
         width: 40%;
     }
     .gap {
-        width: 0px;
+        display: none;
     }
     .work .row + .row {
         margin-top: 0.5em;
